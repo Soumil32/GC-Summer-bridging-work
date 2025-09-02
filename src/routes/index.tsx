@@ -1,9 +1,7 @@
 import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { Link, type DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
-  const iconSize = 96;
-  const gitlabIconUrl = `https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/${iconSize}/external-gitlab-project-planning-and-source-code-management-logo-shadow-tal-revivo.png`;
   return (
     <>
       <h1>Open Source Software (OSS)</h1>
@@ -12,7 +10,7 @@ export default component$(() => {
 
       <div>
         <img src="icons8-github.svg" alt="Github logo"/>
-        <img width={iconSize} height={iconSize} src={gitlabIconUrl} alt="Gitlab logo"/>
+        <img src="/gitlab.svg" alt="Gitlab logo" height={96} width={96}/>
         <img width="96" height="96" src="https://img.icons8.com/color/96/git.png" alt="git"/>
         <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-shadow-tal-revivo.png" alt="apache logo"/>
       </div>

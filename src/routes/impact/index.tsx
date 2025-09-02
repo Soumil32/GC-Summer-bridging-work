@@ -4,15 +4,15 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <>
-      <h1>Why I care about OSS</h1>
+      <h1>Impact of OSS</h1>
 
-      <p>Place holder for screenhots of github profile</p>
+      <p>Place holder for photos</p>
     </>
     );
 });
 
 export const head: DocumentHead = {
-  title: "Why I care about OSS",
+  title: "Impact of OSS",
   meta: [
     {
       name: "description",
