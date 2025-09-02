@@ -15,6 +15,8 @@ export default component$(() => {
   return (
     <QwikCityProvider>
       <head>
+        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
         <meta charset="utf-8" />
         {!isDev && (
           <link
