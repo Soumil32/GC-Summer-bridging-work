@@ -8,6 +8,7 @@ export default component$(() => {
       <Link href="/">What is OSS</Link> <br />
       <Link href="/whyicare">Why I care about OSS</Link> <br /> 
       <Link href="/impact">Impact of OSS</Link> <br />
+      <Link href="/feedback">Give Feedback</Link> <br />
     </>
   )
 });
