@@ -8,7 +8,8 @@ const postForm = routeAction$(async (props) => {
         email: props.email,
         message: props.message,
     }
-    const res = await fetch("https://friendly-space-halibut-4p55764r66gf79w9-5173.app.github.dev/api/submitfeedback", {
+    const url = "https://friendly-space-halibut-4p55764r66gf79w9-5173.app.github.dev";
+    const res = await fetch(url + "/api/submitfeedback", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -24,13 +25,15 @@ export default component$(() => {
   return (
     <>
       <h1>Feedback</h1>
+      <div class="w-screen">       
+        <Form action={postFormAction} class="w-md flex justify-center flex-col">
+          <input type="text" name="name" id="name" />
+          <input type="email" name="email" id="email" />
+          <textarea name="message" id="message"></textarea>
+          <button type="submit">Submit</button>
 
-      <Form action={postFormAction}>
-        <input type="text" name="name" id="name" />
-        <input type="email" name="email" id="email" />
-        <textarea name="message" id="message"></textarea>
-        <button type="submit">Submit</button>
-      </Form>
+        </Form>
+      </div>
     </>
     );
 });
