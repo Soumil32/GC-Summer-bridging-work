@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
-import { Link, type DocumentHead } from "@builder.io/qwik-city";
+import {type DocumentHead } from "@builder.io/qwik-city";
+import ImgGitlab from '~/media/gitlab.svg?jsx';
 
 export default component$(() => {
   return (
@@ -9,8 +10,8 @@ export default component$(() => {
       <p>Sustaining The Modern World</p>
 
       <div class="grid grid-cols-2 grid-rows-2 gap-4">
-        <img src="icons8-github.svg" alt="Github lo go"/>
-        <img src="/gitlab.svg" alt="Gitlab logo" height={96} width={96}/>
+        <img src="icons8-github.svg" alt="Github logo" height={96} width={96}/>
+        <ImgGitlab />
         <img width="96" height="96" src="https://img.icons8.com/color/96/git.png" alt="git"/>
         <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-shadow-tal-revivo.png" alt="apache logo"/>
       </div>

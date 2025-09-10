@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Form, routeAction$, type DocumentHead } from "@builder.io/qwik-city";
 
-const postForm = routeAction$(async (props) => {
+export const usePostForm = routeAction$(async (props) => {
     console.log(props);
     const params = {
         name: props.name,
@@ -22,7 +22,7 @@ const postForm = routeAction$(async (props) => {
 });
 
 export default component$(() => {
-    const postFormAction = postForm();
+    const postFormAction = usePostForm();
   return (
     <>
       <h1>Feedback</h1>
