@@ -6,7 +6,7 @@ export default component$(() => {
     <>
       <h1>Why I care about OSS</h1>
 
-      <p>Place holder for screenhots of github profile</p>
+      <img src="https://th.bing.com/th/id/OIP.17rv2bVB8zqdwQjnCvYAXAHaEK?w=275&h=180&c=7&r=0&o=7&pid=1.7&rm=3" />
 
       <p>
         I have been programming from a young age and would not be where I am without open source software. Even this entire website from the code to the technologies used to serve it on the open web are all open source.

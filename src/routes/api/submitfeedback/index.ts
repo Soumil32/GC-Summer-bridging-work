@@ -13,6 +13,7 @@ export const onPost: RequestHandler = async (request) => {
         message: json.message,
     }
 
+    // validation
     const feedbackSchema = z.object({
         name: z.string(),
         email: z.string(),

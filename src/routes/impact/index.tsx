@@ -6,7 +6,7 @@ export default component$(() => {
     <>
       <h1>Impact of OSS</h1>
 
-      <p>Place holder for photos</p>
+      <img src="https://th.bing.com/th/id/OIP.JCjpPBxeJUX88397dbZQsgHaEK?w=265&h=180&c=7&r=0&o=7&pid=1.7&rm=3" height={200} width={200} />
 
       <p>Open souce software has been the backbone of my tech journey. Without tools like VSCode, Gihub, NodeJS and many more, a large percentage of develepers would not even had a chance
         to discover the joys (and the many, many headaches) of tech industry. This even more true since that the majoiry of he human population currently lives in developing countries

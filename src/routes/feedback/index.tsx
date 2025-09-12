@@ -8,8 +8,8 @@ export const usePostForm = routeAction$(async (props) => {
         email: props.email,
         message: props.message,
     }
-    //const url = "https://friendly-space-halibut-4p55764r66gf79w9-5173.app.github.dev";
-    const url = "";
+    const url = "https://friendly-space-halibut-4p55764r66gf79w9-5173.app.github.dev";
+    //const url = "http://127.0.0.1:5173";
     const res = await fetch(url + "/api/submitfeedback", {
         method: "POST",
         headers: {
